@@ -1,10 +1,11 @@
 
-$bgcolor: lightblue;
+$bgcolor: #FFFCF2;
 $textcolor: darkblue;
 $fontsize: 18px;
 
 /* Use the variables */
 body {
+
   background-color: $bgcolor;
   color: $textcolor;
   font-size: $fontsize;
