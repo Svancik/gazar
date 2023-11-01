@@ -1,10 +1,11 @@
 .topbarWrapper{
     height: 70px;
     width: 100vw;
-    background-color: #ffffff;
+    background-color: white;
     color: black;
     //background-image: linear-gradient(to left, #ffffff 60%, #252422 100%);
     border-bottom: 1px solid black;
+    margin: auto;
     header{
         width: 60%;
         height: 90%;
@@ -14,10 +15,10 @@
         display: flex;
 
         .headerLeft{
-            flex: 2;
+            flex: 3;
             display: table;
             height: inherit;
-            margin-left: 100px;
+            margin-left: 10px;
 
             h2{
                 padding-top: 7.5px;
@@ -35,7 +36,7 @@
             padding-right: 80px;
 
             span{
-                margin-right: 70px;
+                margin-right: 30px;
                 line-height: 70px;
                 vertical-align: middle;
                 text-transform: uppercase;

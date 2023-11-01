@@ -7,8 +7,26 @@ $fontsize: 18px;
 body {
 
   background-color: $bgcolor;
+  background-image: url("./media/handBulb.jpg");
+  background-size: cover;
   color: $textcolor;
   font-size: $fontsize;
+}
+
+.appWrapper{
+  width: 100vw;
+  margin: auto;
+  height: 93vh;
+  position: relative;
+}
+
+.sliderImg{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
 }
 
 .App {

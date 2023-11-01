@@ -1,15 +1,9 @@
 import React from "react";
 import "./about.scss";
+import { Link } from "react-router-dom";
 
 export const About = () => {
   return (
-    <div className="sliderWrapper">
-      <img
-        src={require(`../../media/handBulb.jpg`)}
-        alt=""
-        srcset=""
-        className="sliderImg"
-      />
       <div className="aboutWrapper">
         <div className="left">
           <img
@@ -34,8 +28,12 @@ export const About = () => {
               žárovky.
             </b>
           </span>
+          <span>
+            <br></br>
+            <button> POTŘEBUJI PORADIT </button>
+          </span>
         </div>
       </div>
-    </div>
+
   );
 };
