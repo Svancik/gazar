@@ -1,21 +1,10 @@
-import logo from "./logo.svg";
 import "./App.scss";
-import { Topbar } from "./components/topbar/Topbar";
-import { About } from "./components/about/About";
-import { Portfolio } from "./components/portfolio/Portfolio";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
     <div className="appWrapper">
-      <Topbar />
-      {/* <img
-        src={require(`./media/handBulb.jpg`)}
-        alt=""
-        srcset=""
-        className="sliderImg"
-      /> */}
-      <About />
-      <Portfolio />
+      <Home />
     </div>
   );
 }

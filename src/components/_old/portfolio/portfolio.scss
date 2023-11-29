@@ -1,0 +1,16 @@
+.portfolioWrapper{
+    height: 500px;
+    width: 60vw;
+    background-color: rgba(255, 255, 255, 0.839);
+    color: white;
+    margin: auto;
+    margin-top: 30px;
+    color: black;
+    padding: 50px;
+
+    ul{
+        columns: 4;
+        -webkit-columns: 4;
+        -moz-columns: 4;
+    }
+}

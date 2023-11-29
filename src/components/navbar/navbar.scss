@@ -1,0 +1,21 @@
+header{
+    width: 35%;
+    display: flex;
+    float: right;
+    margin-right: 75px;
+    
+    span{
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 22.5px;
+        flex: auto;
+        text-align: center;
+        transition: all 120ms ease-in-out;
+
+        &:hover{
+            margin-top: 12.5px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    }
+}
