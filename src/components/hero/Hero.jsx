@@ -5,6 +5,16 @@ import MailIcon from "@mui/icons-material/Mail";
 import CheckIcon from "@mui/icons-material/Check";
 import Check from "@mui/icons-material/Check";
 
+/*TODO: 
+  - Udělat kontaktní formulář jako objekt
+  - Srovnat kontaktní formulář vnitřní objekty k jedné straně (aby nebyli různé marginy při zoomu)
+  - Udělat verzi pro 
+    a) Full HD
+    b) Laptop
+    c) Tablet
+    d) Mobil
+*/
+
 export const Hero = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -19,9 +29,12 @@ export const Hero = () => {
     });
   };
 
+  console.log(formData);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     // You can handle form submission logic here, such as sending data to a server.
+
     console.log("Form submitted:", formData);
   };
 
@@ -34,6 +47,8 @@ export const Hero = () => {
         muted
         width="355px"
         height="630px"
+        data-aos="fade-up"
+        data-aos-duration="1000"
       >
         <source
           src={require(`../../media/vlaknoZarovky.mp4`)}
@@ -41,11 +56,19 @@ export const Hero = () => {
         />
       </video>
       <div className="heroAboutWrapTitle">
-        <h1>GAZAR</h1>
-        <h2>GROUP</h2>
+        <h1 data-aos="fade-right" data-aos-duration="1200">
+          GAZAR
+        </h1>
+        <h2 data-aos="fade-left" data-aos-duration="1500">
+          GROUP
+        </h2>
       </div>
 
-      <div className="heroAboutWrapText">
+      <div
+        className="heroAboutWrapText"
+        data-aos="flip-up"
+        data-aos-duration="1800"
+      >
         <span>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
           cupiditate reiciendis perspiciatis! Error quos recusandae quis
@@ -73,7 +96,11 @@ export const Hero = () => {
         </div>
       </div>
 
-      <div className="heroContactForm">
+      <div
+        className="heroContactForm"
+        data-aos="fade-down"
+        data-aos-duration="3000"
+      >
         <div className="contactFormText">
           <MailIcon
             className="mui"
@@ -86,7 +113,6 @@ export const Hero = () => {
             <span>Kontaktujte nás</span>
           </div>
         </div>
-
         <form onSubmit={handleSubmit}>
           <div className="formRow">
             <label>
