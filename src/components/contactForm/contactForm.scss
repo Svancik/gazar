@@ -1,0 +1,94 @@
+.heroContactForm{
+    background-color: rgba(43, 26, 26, 0.867);
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.396);
+    position: absolute;
+    bottom: 2%;
+    right: 1%;  
+    border-radius: 15px;
+
+    .contactFormHeader{
+        display: flex;
+        flex-direction: row;
+        vertical-align: middle;
+        border: 1px solid #f75e4f;
+        border-radius: 10px 10px 0px 0px;
+        background-color: #f75e4f;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 18px;
+        .mui{
+            margin-top: 2px;
+            padding-top: 10px;
+            width: 50px;
+        }
+    }
+    
+    form{
+    
+       
+        .formRow{
+            display: flex;
+            flex-direction: row;
+        }
+        textarea, input { 
+            font-size: 14px; font-family: Arial, Helvetica, sans-serif
+        };
+        .heroFormSubmitBtn{
+            font-size: 16px; 
+            font-weight: 600;
+            display: flex;
+            flex-direction: row;
+            float: right;
+            background-color: #2879fe;
+            color: white;
+            &:hover{
+                cursor: pointer;
+                background-color: #438bff;;
+            }
+            .submitBtnText{
+                text-transform: uppercase;
+                font-size: 16px;
+            }
+        }
+    }     
+}
+
+//1920x1080 FULL HD
+@media screen and (min-width: 1920px) {
+    .heroContactForm{
+        width: 400px;
+        padding: 20px 40px;
+        height: 300px;    
+        .contactFormHeader{
+            width: 480px;
+            height:55px;
+            line-height: 50px;        
+            margin-left: -41px;
+            margin-top: -30px;
+            padding-top: 4.5px;                  
+        }    
+        form{
+            margin-left: 7.5px;            
+            .formRow{
+                margin-top: 15px;
+            } 
+            .heroFormSubmitBtn{
+                width: 150px;
+                height: 42.5px;
+                padding: 7.5px 15px;                
+                margin-right: 11px;
+                margin-top: 12px;    
+                .submitBtnText{
+                    margin-top: 3px;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
+
+
+
