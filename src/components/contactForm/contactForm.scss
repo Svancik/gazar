@@ -26,15 +26,14 @@
         }
     }
     
-    form{
-    
+    form{  
        
         .formRow{
             display: flex;
             flex-direction: row;
         }
         textarea, input { 
-            font-size: 14px; font-family: Arial, Helvetica, sans-serif
+            font-size: 14px; font-family: Arial, Helvetica, sans-serif;
         };
         .heroFormSubmitBtn{
             font-size: 16px; 
@@ -55,6 +54,57 @@
         }
     }     
 }
+
+//1600x900 LAPTOP
+@media screen and (min-width: 1600px) {
+    .heroContactForm{
+        width:300px;
+        padding: 10px 20px;
+        height: 235px;    
+        .contactFormHeader{
+            width: 340px;
+            height:40px;
+            font-size: 16px;
+            line-height: 40px;        
+            margin-left: -21px;
+            margin-top: -20px;
+            padding-top: 4.5px;  
+            .mui{
+                margin-top: -3px;
+                padding-top: 10px;
+                width: 50px;
+            }                
+        }    
+        form{
+            margin-left: -7.5px;            
+            .formRow{
+                margin-top: 15px;
+            } 
+            .heroFormSubmitBtn{
+                width: 120px;
+                height: 32.5px;
+                padding: 1.75px 7.5px;                
+                margin-right: 1px;
+                margin-top: 12px;    
+                .submitBtnText{
+                    margin-top: 4px;
+                    margin-left: 5px;
+                    font-size: 14px;
+                }
+            }
+            input{
+                width: 145px;
+                font-size: 13px;
+            }
+            textarea{
+                height: 6em;
+                font-size: 12px;
+                width: 25em;
+            }
+        }
+    }
+}
+
 
 //1920x1080 FULL HD
 @media screen and (min-width: 1920px) {
@@ -85,6 +135,13 @@
                     margin-top: 3px;
                     margin-left: 5px;
                 }
+            }
+            input{
+                width: 170px;
+            }
+            textarea{
+                width: inherit;
+                height: inherit;
             }
         }
     }

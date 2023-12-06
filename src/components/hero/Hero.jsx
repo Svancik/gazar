@@ -1,19 +1,13 @@
 import React from "react";
 import "./hero.scss";
 
-
 /*TODO: 
-  - Udělat kontaktní formulář jako objekt
-  - Srovnat kontaktní formulář vnitřní objekty k jedné straně (aby nebyli různé marginy při zoomu)
   - Udělat verzi pro 
-    a) Full HD
-    b) Laptop
     c) Tablet
     d) Mobil
 */
 
 export const Hero = () => {
-
   return (
     <div className="heroWrap">
       <video
@@ -69,8 +63,6 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-
-    
     </div>
   );
 };
