@@ -70,7 +70,7 @@
             margin-top: -20px;
             padding-top: 4.5px;  
             .mui{
-                margin-top: -3px;
+                margin-top: -4px;
                 padding-top: 10px;
                 width: 50px;
             }                
@@ -85,11 +85,11 @@
                 height: 32.5px;
                 padding: 1.75px 7.5px;                
                 margin-right: 1px;
-                margin-top: 12px;    
+                margin-top: 8px;    
                 .submitBtnText{
-                    margin-top: 4px;
+                    margin-top: 4.5px;
                     margin-left: 5px;
-                    font-size: 14px;
+                    font-size: 13px;
                 }
             }
             input{
@@ -99,7 +99,9 @@
             textarea{
                 height: 6em;
                 font-size: 12px;
-                width: 25em;
+                width: 21.5em;
+                font-size: 14px; font-family: Arial, Helvetica, sans-serif;
+                
             }
         }
     }
@@ -118,7 +120,18 @@
             line-height: 50px;        
             margin-left: -41px;
             margin-top: -30px;
-            padding-top: 4.5px;                  
+            padding-top: 4.5px;     
+
+            .mui{
+                margin-top: 3px;
+            }
+
+            
+            .contactUs{
+                span{
+                    font-size: 20px;
+                }
+            }       
         }    
         form{
             margin-left: 7.5px;            
@@ -132,16 +145,24 @@
                 margin-right: 11px;
                 margin-top: 12px;    
                 .submitBtnText{
-                    margin-top: 3px;
+                    margin-top: 2px;
                     margin-left: 5px;
+                    font-size: 17px;
                 }
             }
+
+            input,textarea{
+                font-size: 14px;
+            }
+
             input{
                 width: 170px;
             }
             textarea{
-                width: inherit;
+                width: 26.5em;
                 height: inherit;
+                padding: 0.25em;
+                
             }
         }
     }

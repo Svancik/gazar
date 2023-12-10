@@ -69,7 +69,7 @@ export const ContactForm = () => {
         <label>
           <textarea
             rows="8"
-            cols="51.5"
+            cols="52.5"
             name="message"
             placeholder="Zadejte technické zadání vašeho požadavku. Jaký typ svítidla hledáte? Kolik kusů? Do jakého termínu?"
             value={formData.message}
