@@ -13,15 +13,22 @@ export const Navbar = () => {
 
   return (
     <div className="navbarWrapper">
+      {" "}
       <div className="dropdown-menu-container">
-        <button className="toggle-button" onClick={toggleMenu}>
-          <ListIcon
-            sx={{
-              width: "28px",
-              height: "28px",
-            }}
-          />
-        </button>
+        <div className="titleWrap">
+          <h1>GAZAR</h1>
+          <h2>GROUP</h2>
+        </div>
+        <div className="buttonWrap">
+          <button className="toggle-button" onClick={toggleMenu}>
+            <ListIcon
+              sx={{
+                width: "30px",
+                height: "30px",
+              }}
+            />
+          </button>
+        </div>
 
         {isMenuOpen && (
           <div className="dropdown-menu">
@@ -44,7 +51,6 @@ export const Navbar = () => {
           </div>
         )}
       </div>
-
       <div
         className="topbarWrap hide-on-phone"
         data-aos="fade-down"
