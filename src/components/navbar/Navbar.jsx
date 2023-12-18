@@ -51,6 +51,9 @@ export const Navbar = () => {
           </div>
         )}
       </div>
+      {
+        //HIDE ON PHONE
+      }
       <div
         className="topbarWrap hide-on-phone"
         data-aos="fade-down"

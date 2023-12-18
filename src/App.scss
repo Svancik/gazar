@@ -8,6 +8,7 @@ $fontsize: 18px;
 
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -34,6 +35,10 @@ $fontsize: 18px;
 
 .App-link {
   color: #61dafb;
+}
+
+body{
+  overflow: hidden;
 }
 
 @keyframes App-logo-spin {
