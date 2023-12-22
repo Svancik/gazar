@@ -1,0 +1,112 @@
+.product-list-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 20px;
+  
+    .filter-section {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+  
+      select {
+        padding: 8px;
+        font-size: 14px;
+      }
+  
+      input {
+        padding: 8px;
+        font-size: 14px;
+      }
+    }
+  
+    .product-list {
+      list-style: none;
+      padding: 0;
+  
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  
+  .product-cell {
+    border: 1px solid #dddddd;
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.54);
+  
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+  
+    .product-info {
+      .info-row {
+        font-size: 14px;
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  // CategoryMenu.scss
+
+.category-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+  
+    a {
+      text-decoration: none;
+      color: #333;
+      padding: 8px;
+  
+      &:hover {
+        background-color: #f0f0f0;
+      }
+    }
+  
+    &.has-children {
+      &:hover .sub-menu {
+        display: block;
+      }
+    }
+  
+    .sub-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      z-index: 100;
+  
+      li {
+        display: block;
+        width: 200px;
+      }
+  
+      a {
+        padding: 10px;
+      }
+    }
+  }

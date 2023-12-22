@@ -40,13 +40,7 @@ export const ContactForm = () => {
         data-aos-duration="3000"
       >
         <div className="contactFormHeader">
-          <MailIcon
-            className="mui"
-            sx={{
-              width: "28px",
-              height: "28px",
-            }}
-          />
+          <MailIcon className="mui" />
           <div className="contactUs">
             <span>Kontaktujte nás</span>
           </div>

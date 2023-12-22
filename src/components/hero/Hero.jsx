@@ -49,9 +49,6 @@ export const Hero = () => {
           tenetur pariatur? Accusantium natus, eius maxime recusandae earum
           deserunt illo ex sint eos optio adipisci voluptates, quam cupiditate
           doloremque minus nulla ducimus necessitatibus voluptatum qui nisi!
-          Ullam quia neque asperiores minima fugit, suscipit accusantium tempore
-          quisquam excepturi natus, voluptate dignissimos praesentium fuga
-          recusandae?
         </span>
         <br /> <br />
         <div className="heroAboutLinks">

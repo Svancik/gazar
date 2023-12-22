@@ -22,6 +22,7 @@ export const Navbar = () => {
         <div className="buttonWrap">
           <button className="toggle-button" onClick={toggleMenu}>
             <ListIcon
+              className="toggle-button-icon"
               sx={{
                 width: "30px",
                 height: "30px",

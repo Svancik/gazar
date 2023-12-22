@@ -9,7 +9,7 @@
     position: absolute;
     z-index: 99999;
     right: 2%;
-    bottom: 1%;
+    bottom: 1.5%;
     border-radius: 50%;
     border: 1px solid white;
     display: flex;
@@ -22,9 +22,6 @@
         color: white;
         position: absolute;
         right: 20%;
-
-
-
     }
 }
 
@@ -54,7 +51,8 @@
         .mui{
             margin-top: 2px;
             padding-top: 10px;
-            width: 50px;
+            width: 28px;
+            height: 28px;
         }
     }
     
@@ -87,6 +85,131 @@
     }     
 }
 
+
+// PHONE VIEW width 320px
+@media screen and ((min-width: 320px) and (orientation: portrait)) {
+    .heroContactForm{
+        display: none;
+        z-index: 1;
+    }
+    .portraitContaftFormWrapper{
+        width: 100vw;
+       display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+    
+        .portraitContactForm{
+            bottom:1%;
+            background-color: rgba(43, 26, 26, 0.734);
+            color: white;
+            border: 1px solid rgba(0, 0, 0, 0.396);
+            width: 100vw;
+            margin: 0px;
+            padding: 0px;
+            margin-top: 4vw;
+            padding-bottom: 10vh;
+
+
+            .contactFormHeader{
+                display: flex;
+                height: 10vw;
+                line-height: 11vw;
+                flex-direction: row;
+                vertical-align: middle;
+                justify-content: center;
+                border: 1px solid #f75e4f;
+                background-color: #f75e4f;
+                text-align: center;
+                color: white;
+                text-transform: uppercase;
+                font-weight: 500;
+                font-size: 4vw;
+                
+                .contactUs{
+                }
+
+                
+                .mui{
+                    width: 5vw;
+                    margin-top: 1.75vw;
+                    margin-right: 5px;
+                }
+            }
+            
+            form{  
+                position: relative;
+                padding: 5vw;
+                margin-left: 0.5vw;
+                display: flex;
+                flex-direction: column;
+
+                .formRow{
+                    display: flex;
+                    flex-direction: column;
+                }
+                input{
+                   width: 40vw;
+          
+               
+                }
+
+                textarea{
+                    margin-top: -15px;
+                    width: 85.5vw;
+                    height: 12vh;
+                }
+
+                label{
+                    margin-top: 0px;
+                    padding-top: 0px;
+                    font-weight: 500;
+                    font-size: 3vw;
+                    padding-bottom: 15px;
+                    justify-content: center;
+                }
+               
+                .formRow{
+                    display: flex;
+                    flex-direction: row;
+                }
+                textarea, input { 
+                    font-size: 3vw; font-family: Arial, Helvetica, sans-serif;
+                };
+                .heroFormSubmitBtn{
+                    font-weight: 600;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    float: center;
+                    align-self: center;
+                    background-color: #2879fe;
+                    margin-top: -25px;
+                    height:40px;
+                    line-height: 33px;
+                    vertical-align: middle;
+                    width: 33vw;
+                    color: white;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: #438bff;;
+                    }
+                    .submitBtnText{
+                        text-transform: uppercase;
+                        font-size: 3.7vw;
+                    }
+                }
+            }
+        }
+    }
+    .contactUsIconWrapper{
+        box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.46); 
+        z-index: 99999;
+    }
+}
+
 // 768x1024 - iPad
 @media screen and ((min-width: 768px) and (orientation: portrait)) {
 
@@ -102,6 +225,7 @@
     
         .portraitContactForm{
             position: absolute;
+            box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.46); 
             bottom: 2%;
             background-color: rgba(43, 26, 26, 0.734);
             color: white;
@@ -182,10 +306,9 @@
                     background-color: #2879fe;
                     margin-top: -25px;
                     height:40px;
-                    line-height: 35px;
+                    line-height: 33px;
                     vertical-align: middle;
                     width: 160px;
-                    border-radius: 7.5px;
                     color: white;
                     &:hover{
                         cursor: pointer;
@@ -197,17 +320,99 @@
                     }
                 }
             }
-
         }
     }
-
     .contactUsIconWrapper{
+        box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.46); 
         z-index: 99999;
     }
     }
 
+// 2048x2732 - iPad Pro
+@media screen and ((min-width: 2048px) and (orientation: portrait)) {
+
+        .portraitContaftFormWrapper{
+       
+            .portraitContactForm{
+                bottom: 5%;
+                width: 75rem;
+                height: 55rem;
+    
+                .contactFormHeader{
+                    height: 7.5rem;
+                    line-height: 7.65rem;
+                    font-size: 2.75rem; 
+                    
+                    .mui{
+                        margin-top: 1.3rem;
+                        margin-right: 0.75rem;
+                        width: 4rem;
+                        height: 4rem;
+                    }
+                }
+                
+                form{  
+                    padding: 1.5rem;
+                    input{
+                        width: 32.5rem;
+                        height: 4.25rem;
+                        gap: 1rem;
+                        padding-left: 1rem;
+                   
+                    }
+    
+                    textarea{
+                        width: 70rem;
+                        height: 25rem;
+                        padding: 1rem;
+                      
+                    }
+    
+                    label{
+                        font-size: 2.75rem;
+                        padding-bottom: 15px;
+                        justify-content: center;
+                    }
+                   
+                    textarea, input { 
+                        font-size: 2.5rem; font-family: Arial, Helvetica, sans-serif;                   
+                    }
+                    .heroFormSubmitBtn{
+                        height: 5.75rem;
+                        line-height: 5rem;
+                        width: 20rem;
+                        margin-top: -1rem;
+                        &:hover{
+                            cursor: pointer;
+                            background-color: #438bff;;
+                        }
+                        .submitBtnText{
+                            text-transform: uppercase;
+                            font-size: 2.5rem; 
+                        }
+                    }
+                }
+            }
+        }
+        .contactUsIconWrapper{
+            width: 12rem;
+            height: 12rem;
+
+
+            .contactUsIcon{
+                width: 7rem;
+                height: 7rem;
+            }
+            z-index: 99999;
+        }
+        }
+
+
 //1600x900 LAPTOP
-@media screen and (min-width: 1600px) {
+@media screen and ((min-width: 1600px) and (orientation: landscape)) {
+    .portraitContaftFormWrapper{
+        display: none;
+    }
     .contactUsIconWrapper{
         display: none;
     }
