@@ -1,26 +1,18 @@
 import React, { useState } from "react";
 import "./categoryDropdown.scss";
 
-const CategoryDropdown = ({
-  categories,
-  onSelectCategory,
-  setCategoryFilter,
-}) => {
+const CategoryDropdown = ({ categories, setCategoryFilter }) => {
   const [selectedCategory, setSelectedCategory] = useState("");
-
-  console.log(selectedCategory);
 
   const handleCategoryChange = (event) => {
     const selectedValue = event.target.value;
     setSelectedCategory(selectedValue);
-    onSelectCategory(selectedValue);
     setCategoryFilter(selectedValue);
   };
 
   const renderCategories = (category) => {
     return (
       <React.Fragment key={category.id}>
-        {/* TODO: Níže bylo původně category.id*/}
         <option
           value={category.id}
           className={

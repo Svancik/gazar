@@ -5,7 +5,7 @@ import ProductList from "../../components/productsList/ProductsList";
 
 export const Products = () => {
   return (
-    <div className="ProductsWrap">
+    <div className="productsWrap">
       <Navbar />
       <ProductList />
     </div>
