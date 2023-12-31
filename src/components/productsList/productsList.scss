@@ -4,7 +4,7 @@
     max-width: 1875px;
     margin: 0 auto;
     padding: 20px;
-    margin-top: 5px;
+    margin-top: 15px;
   
     .filter-section {
       display: flex;
@@ -16,18 +16,11 @@
         font-size: 14px;
       }
   
-      input {
-        padding: 8px;
-        font-size: 14px;
-        border: 2px solid #f75e4f;
-        border: 3px solid rgba(247,94,79,255);
-
-      }
     }
 
     .categoryFilterTitle{
       position: absolute;
-      top:50px;
+      top:60px;
       width: 20%;
       right: 40%;
       left: 40%;
@@ -48,10 +41,28 @@
 
   .product-grid {
     display: grid;
+    margin-top: 25px;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 8px;
   }
   
+.input-textsearch {
+  display: block;
+  width: 300px;
+  font-size: 15px;
+  height: 35px;
+  padding: 0 8px;
+  border-radius: 10px;
+  animation: all 5s linear infinite;
+}
+
+.linear-background-text{
+  border: 3px solid black;
+  border: 3px solid transparent;
+  background-image: linear-gradient(white, rgb(255, 255, 255)), linear-gradient(315deg, rgb(255, 222, 160), rgb(236, 183, 37), rgb(250, 94, 94));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
 
 
 

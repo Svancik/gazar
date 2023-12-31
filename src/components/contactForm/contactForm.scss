@@ -2,6 +2,8 @@
     display: none;
 }
 
+
+
 .contactUsIconWrapper{
     width: 60px;
     height: 60px;
@@ -11,10 +13,14 @@
     right: 2%;
     bottom: 1.5%;
     border-radius: 50%;
-    border: 1px solid white;
+    border: 3px solid white;
     display: flex;
     align-items: center;
     text-align: center;
+
+    &:hover{
+        cursor: pointer;
+    }
 
     .contactUsIcon{
         width: 35px;
@@ -413,9 +419,12 @@
     .portraitContaftFormWrapper{
         display: none;
     }
-    .contactUsIconWrapper{
+
+    .hide-on-phone{
         display: none;
     }
+    
+
 
     .heroContactForm{
         display: block;
@@ -467,6 +476,11 @@
                 
             }
         }
+    }
+    .popUpForm{
+        position: absolute;
+        bottom:2%;
+        margin-right: 100px;
     }
 }
 

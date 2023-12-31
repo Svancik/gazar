@@ -7,6 +7,7 @@ import { products } from "../../dummyData";
 
 import { ProductItem } from "../productItem/ProductItem";
 import { Pagination } from "../pagination/Pagination";
+import { Link } from "react-router-dom";
 
 const ProductList = () => {
   const [categoryFilter, setCategoryFilter] = useState("All");
@@ -45,19 +46,24 @@ const ProductList = () => {
         <CategoryDropdown
           categories={categories}
           setCategoryFilter={setCategoryFilter}
+          setCurrentPage={setCurrentPage}
+          className="linear-background"
         />
-
-        <h1 className="categoryFilterTitle">
-          {categoryFilter === "All"
-            ? "Všechny kategorie žárovek"
-            : categories.find((category) => category.id == categoryFilter).name}
-        </h1>
+        <div>
+          <h1 className="categoryFilterTitle">
+            {categoryFilter === "All"
+              ? "Všechny kategorie žárovek"
+              : categories.find((category) => category.id == categoryFilter)
+                  .name}
+          </h1>
+        </div>
         {/* Text Search */}
         <input
           type="text"
           placeholder="Vyhledejte produkt..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
+          className="input-textsearch linear-background-text"
         />
       </div>
 
@@ -65,21 +71,25 @@ const ProductList = () => {
 
       <div className="product-grid">
         {currentProducts.map((product) => (
-          <ProductItem product={product} categories={categories} />
+          <Link className="link" to={`/product/${product.id}`}>
+            <ProductItem product={product} categories={categories} />
+          </Link>
         ))}
       </div>
 
       <div className="pagination">
-        <Pagination
-          postsPerPage={postsPerPage}
-          totalPosts={
-            filteredProducts.length !== 0
-              ? filteredProducts.length
-              : products.length
-          }
-          currentPage={currentPage}
-          paginate={paginate}
-        />
+        {filteredProducts.length > 0 && (
+          <Pagination
+            postsPerPage={postsPerPage}
+            totalPosts={
+              filteredProducts.length !== 0
+                ? filteredProducts.length
+                : products.length
+            }
+            currentPage={currentPage}
+            paginate={paginate}
+          />
+        )}
       </div>
     </div>
   );

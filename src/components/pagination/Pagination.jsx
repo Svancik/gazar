@@ -13,6 +13,7 @@ export const Pagination = ({
   for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
     pageNumbers.push(i);
   }
+  console.log(totalPosts);
   return (
     <>
       {totalPosts > postsPerPage && (

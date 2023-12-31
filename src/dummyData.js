@@ -36,18 +36,17 @@ export const categories = [
       thumbnail:
         "http://www.jarovky.eu/1753-2240-large/dentalni--osram-64613-12v-75w-g53.jpg",
       datasheet: {
-        EANCodeManufacturer: "4050300241012",
-        ProductGroup: "Studio-, projection- and photo lamp",
-        Brand: "Osram",
-        PartNoBrand: "4050300241012",
-        Base: "G5.3-4.8",
-        LampShape: "Reflector",
-        Voltage: 12,
-        Wattage: 75,
-        Lifespan: 25,
+        EAN: "4050300241012",
+        Výrobce: "Osram",
+        Číslo_výrobce: "4050300241012",
+        Patice: "G5.3-4.8",
+        Tvar: "Reflector",
+        Napětí: 12,
+        Výkon: 75,
+        Životnost: 25,
         Dimmable: "Not known",
-        Diameter: 35,
-        Length: 35.5,
+        Průměr: 35,
+        Délka: 35.5,
       },
     },
     {
@@ -68,7 +67,7 @@ export const categories = [
     },
     {
       id: 4,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -76,7 +75,7 @@ export const categories = [
     },
     {
       id: 5,
-      name: "  OSRAM 64613 12V 75W G5,3",
+      name: "OSRAM 64613 12V 75W G5,3",
       price: "726",
       categoryID: 21,
       thumbnail:
@@ -84,7 +83,7 @@ export const categories = [
     },
     {
       id: 6,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -92,7 +91,7 @@ export const categories = [
     },
     {
       id: 7,
-      name: "  OSRAM 64613 12V 75W G5,3",
+      name: "OSRAM 64613 12V 75W G5,3",
       price: "726",
       categoryID: 1,
       thumbnail:
@@ -100,7 +99,7 @@ export const categories = [
     },
     {
       id: 8,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -108,7 +107,7 @@ export const categories = [
     },
     {
       id: 9,
-      name: "  OSRAM 64613 12V 75W G5,3",
+      name: "OSRAM 64613 12V 75W G5,3",
       price: "726",
       categoryID: 1,
       thumbnail:
@@ -116,7 +115,7 @@ export const categories = [
     },
     {
       id: 10,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -124,7 +123,7 @@ export const categories = [
     },
     {
       id: 11,
-      name: "  OSRAM 64613 12V 75W G5,3",
+      name: "OSRAM 64613 12V 75W G5,3",
       price: "726",
       categoryID: 1,
       thumbnail:
@@ -132,7 +131,7 @@ export const categories = [
     },
     {
       id: 12,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -140,7 +139,7 @@ export const categories = [
     },
     {
       id: 13,
-      name: "  OSRAM 64613 12V 75W G5,3",
+      name: "OSRAM 64613 12V 75W G5,3",
       price: "726",
       categoryID: 1,
       thumbnail:
@@ -148,7 +147,7 @@ export const categories = [
     },
     {
       id: 14,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -156,7 +155,7 @@ export const categories = [
     },
     {
       id: 15,
-      name: "  OSRAM 64613 12V 75W G5,3",
+      name: "OSRAM 64613 12V 75W G5,3",
       price: "726",
       categoryID: 1,
       thumbnail:
@@ -164,7 +163,7 @@ export const categories = [
     },
     {
       id: 16,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -210,7 +209,7 @@ export const categories = [
     },
     {
       id: 20,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -218,7 +217,7 @@ export const categories = [
     },
     {
       id: 21,
-      name: "  OSRAM 64613 12V 75W G5,3",
+      name: "OSRAM 64613 12V 75W G5,3",
       price: "726",
       categoryID: 1,
       thumbnail:
@@ -226,7 +225,7 @@ export const categories = [
     },
     {
       id: 22,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -234,7 +233,7 @@ export const categories = [
     },
     {
       id: 23,
-      name: "  OSRAM 64613 12V 75W G5,3",
+      name: "OSRAM 64613 12V 75W G5,3",
       price: "726",
       categoryID: 1,
       thumbnail:
@@ -242,7 +241,7 @@ export const categories = [
     },
     {
       id: 24,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -250,7 +249,7 @@ export const categories = [
     },
     {
       id: 25,
-      name: "  OSRAM 64613 12V 75W G5,3",
+      name: "OSRAM 64613 12V 75W G5,3",
       price: "726",
       categoryID: 1,
       thumbnail:
@@ -258,7 +257,7 @@ export const categories = [
     },
     {
       id: 26,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -266,7 +265,7 @@ export const categories = [
     },
     {
       id: 27,
-      name: "  OSRAM 64613 12V 75W G5,3",
+      name: "OSRAM 64613 12V 75W G5,3",
       price: "726",
       categoryID: 1,
       thumbnail:
@@ -274,7 +273,7 @@ export const categories = [
     },
     {
       id: 28,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -282,7 +281,7 @@ export const categories = [
     },
     {
       id: 29,
-      name: "  OSRAM 64613 12V 75W G5,3",
+      name: "OSRAM 64613 12V 75W G5,3",
       price: "726",
       categoryID: 1,
       thumbnail:
@@ -290,7 +289,7 @@ export const categories = [
     },
     {
       id: 30,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -298,7 +297,7 @@ export const categories = [
     },
     {
       id: 31,
-      name: "  OSRAM 64613 12V 75W G5,3",
+      name: "OSRAM 64613 12V 75W G5,3",
       price: "726",
       categoryID: 1,
       thumbnail:
@@ -306,7 +305,7 @@ export const categories = [
     },
     {
       id: 32,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -314,7 +313,7 @@ export const categories = [
     },
     {
       id: 33,
-      name: "  OSRAM 64613 12V 75W G5,3",
+      name: "OSRAM 64613 12V 75W G5,3",
       price: "726",
       categoryID: 1,
       thumbnail:
@@ -322,7 +321,7 @@ export const categories = [
     },
     {
       id: 34,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -331,7 +330,7 @@ export const categories = [
 
     {
       id: 35,
-      name: "  OSRAM 64613 12V 75W G5,3",
+      name: "OSRAM 64613 12V 75W G5,3",
       price: "726",
       categoryID: 1,
       thumbnail:
@@ -339,7 +338,7 @@ export const categories = [
     },
     {
       id: 36,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -348,7 +347,7 @@ export const categories = [
 
     {
       id: 37,
-      name: "  OSRAM 64613 12V 75W G5,3",
+      name: "OSRAM 64613 12V 75W G5,3",
       price: "726",
       categoryID: 1,
       thumbnail:
@@ -356,7 +355,7 @@ export const categories = [
     },
     {
       id: 38,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -365,7 +364,7 @@ export const categories = [
 
     {
       id: 39,
-      name: "  OSRAM 64613 12V 75W G5,3",
+      name: "OSRAM 64613 12V 75W G5,3",
       price: "726",
       categoryID: 1,
       thumbnail:
@@ -373,7 +372,7 @@ export const categories = [
     },
     {
       id: 40,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:
@@ -381,7 +380,7 @@ export const categories = [
     },
     {
       id: 41,
-      name: "  H192465 24V 65W PK22S 11,5X42MM      ",
+      name: "H192465 24V 65W PK22S 11,5X42MM      ",
       price: "116",
       categoryID: 1,
       thumbnail:

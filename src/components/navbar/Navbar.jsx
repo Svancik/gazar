@@ -3,6 +3,7 @@ import WbIncandescentTwoToneIcon from "@mui/icons-material/WbIncandescentTwoTone
 import "./navbar.scss";
 import MenuIcon from "@mui/icons-material/Menu";
 import ListIcon from "@mui/icons-material/List";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -35,10 +36,14 @@ export const Navbar = () => {
           <div className="dropdown-menu">
             {/* Your dropdown menu items go here */}
             <div className="headerItem">
-              <span>O nás</span>
+              <Link to="/">
+                <span>O nás</span>
+              </Link>
             </div>
             <div className="headerItem">
-              <span>Náš sortiment</span>
+              <Link to="/products">
+                <span>Náš sortiment</span>
+              </Link>
             </div>
             <div className="headerItem">
               <span>Obchodní podmínky</span>
@@ -55,17 +60,17 @@ export const Navbar = () => {
       {
         //HIDE ON PHONE
       }
-      <div
-        className="topbarWrap hide-on-phone"
-        data-aos="fade-down"
-        data-aos-duration="1200"
-      >
+      <div className="topbarWrap hide-on-phone">
         <header>
           <div className="headerItem">
-            <span>O nás</span>
+            <Link className="link" to="/">
+              <span>O nás</span>
+            </Link>
           </div>
           <div className="headerItem">
-            <span>Náš sortiment</span>
+            <Link className="link" to="/products">
+              <span>Náš sortiment</span>
+            </Link>
           </div>
           <div className="headerItem">
             <span>Obchodní podmínky</span>

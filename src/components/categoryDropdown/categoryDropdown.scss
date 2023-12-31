@@ -1,4 +1,7 @@
 .categoryDropdownWrap{
+
+
+
     label{
         margin-right: 10px;
     }
@@ -20,7 +23,29 @@
         color: white;
 
     }
+    option{
+        font-weight: 500;
+        &:hover{
+            cursor: pointer;
+          }
     }
+    &:hover{
+        cursor: pointer;
+      }
+    }
+
+    .linear-background-select{
+        width: 300px;
+        border: 3px solid black;
+        border: 3px solid transparent;
+        background-image: linear-gradient(white, rgb(255, 255, 255)), linear-gradient(315deg, rgb(236, 183, 37), rgb(250, 94, 94), rgb(255, 222, 160), rgb(250, 94, 94));
+        background-origin: border-box;
+        background-clip: padding-box, border-box;
+   
+        
+
+      }
+
 
 
 }
