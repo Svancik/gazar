@@ -73,7 +73,9 @@ export const Navbar = () => {
             </Link>
           </div>
           <div className="headerItem">
-            <span>Obchodní podmínky</span>
+            <Link className="link" to="/termsandconditions">
+              <span>Obchodní podmínky</span>
+            </Link>
           </div>
           <div className="headerItem">
             <span>Jak nakupovat</span>

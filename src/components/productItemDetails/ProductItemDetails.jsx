@@ -43,6 +43,11 @@ export const ProductItemDetails = ({ product }) => {
               <b>Dostupnost:</b> ihned
             </span>
 
+            <button className="productItemDetailsButton">
+              {" "}
+              Odeslat poptávku{" "}
+            </button>
+
             {product.datasheet && (
               <div className="table-container">
                 <table className="custom-table">
