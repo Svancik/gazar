@@ -5,7 +5,7 @@ import { TermsAndConditionsInfo } from "../../components/termsAndConditionsInfo/
 
 export const TermsAndConditions = () => {
   return (
-    <div className="termsAndConditionsWrapper">
+    <div className="termsAndConditionsWrapper" >
       <Navbar />
       <TermsAndConditionsInfo />
     </div>

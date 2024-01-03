@@ -3,7 +3,10 @@ import "./productItem.scss";
 
 export const ProductItem = ({ product, categories }) => {
   return (
-    <div className="product-cell" key={product.id}>
+    <div
+      className="product-cell"
+      key={product.id}
+    >
       <div className="product-img">
         <img src={product.thumbnail} alt={product.name} />
       </div>

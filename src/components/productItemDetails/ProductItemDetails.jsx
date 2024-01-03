@@ -33,7 +33,7 @@ export const ProductItemDetails = ({ product }) => {
             <h2>{product.name}</h2>
           </div>
           <div className="productDecsription">
-            <h4>- {productCategory}</h4>
+            <h4>{productCategory}</h4>
 
             <span>
               <b>Orientační cena: </b>

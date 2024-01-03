@@ -69,7 +69,7 @@ const ProductList = () => {
 
       {/* Product Grid / List with ProductItems*/}
 
-      <div className="product-grid">
+      <div className="product-grid" data-aos="zoom-in" data-aos-duration="1000">
         {currentProducts.map((product) => (
           <Link className="link" to={`/product/${product.id}`}>
             <ProductItem product={product} categories={categories} />

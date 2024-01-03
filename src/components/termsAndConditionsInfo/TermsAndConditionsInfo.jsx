@@ -3,7 +3,11 @@ import "./termsAndConditionsInfo.scss";
 
 export const TermsAndConditionsInfo = () => {
   return (
-    <div className="termsAndConditionsInfoWrapper">
+    <div
+      className="termsAndConditionsInfoWrapper"
+      data-aos="zoom-in"
+      data-aos-duration="500"
+    >
       <h1>Obchodní podmínky</h1>
       <hr />
       <div className="terms-container">
