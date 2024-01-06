@@ -49,14 +49,14 @@ const ProductList = () => {
           setCurrentPage={setCurrentPage}
           className="linear-background"
         />
-        <div>
+        {/* <div>
           <h1 className="categoryFilterTitle">
             {categoryFilter === "All"
               ? "Všechny kategorie žárovek"
               : categories.find((category) => category.id == categoryFilter)
                   .name}
           </h1>
-        </div>
+        </div> */}
         {/* Text Search */}
         <input
           type="text"

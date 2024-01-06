@@ -1,14 +1,17 @@
 body{
-    background-attachment: fixed;
-    background-size: cover;
-    background-image: url("../../media/productsBG-right2.svg"); 
 
-    background-color: #ECECEC;
 }
 
 .productsWrap{
     background-image: url("../../media/productsBG-left4.svg"); 
     background-attachment: fixed;
     background-size: cover;
+    min-height: 100vh;
+}
+
+.productsWrap2{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("../../media/productsBG-right2.svg"); 
     min-height: 100vh;
 }
